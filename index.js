@@ -88,24 +88,10 @@ function footballPoints(wins,draws,losses){
         
   }
   multiplesOf();
+
+   //Q8
   
-  //Q9
-  function myAge(presentYear,BirthYear){
-    const  ages=(presentYear-BirthYear) ;
-    return ages;
-  }
-  
-  myAge(2021,1996)
-  
-  //Q10
-  
-  const str = 'have fun';
-  const str2 = str.charAt(0.).toUpperCase() + 'ave'  + "" + str.charAt(5).toUpperCase() +'un';
-  console.log(str2 );
-  
-  //Q8
-  
-  function typeOfNumber(){
+   function typeOfNumber(){
 
     for(let i =0 ;i<=15;i++){
       if(i%2==0){
@@ -118,5 +104,21 @@ function footballPoints(wins,draws,losses){
   }
   
   typeOfNumber()
+  
+  //Q9
+  function myAge(presentYear,BirthYear){
+    const  ages=(presentYear-BirthYear) ;
+    return ages;
+  }
+  
+  myAge(2021,1996)
+  
+  //Q10
+  
+  const str = 'have fun';
+  const str2 = str.charAt(0.).toUpperCase() + 'ave'  + " " + str.charAt(5).toUpperCase() +'un';
+  console.log(str2 );
+  
+ 
   
   
