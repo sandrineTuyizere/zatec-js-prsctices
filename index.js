@@ -103,16 +103,20 @@ function footballPoints(wins,draws,losses){
   const str2 = str.charAt(0.).toUpperCase() + 'ave'  + "" + str.charAt(5).toUpperCase() +'un';
   console.log(str2 );
   
-  
+  //Q8
   
   function typeOfNumber(){
-  
+
     for(let i =0 ;i<=15;i++){
-      if(i%2==0)
+      if(i%2==0){
     console.log("The number is even.");
     }
-   
+      else{
+        console.log("The number is odd")
+      }
+    }
   }
   
   typeOfNumber()
+  
   
